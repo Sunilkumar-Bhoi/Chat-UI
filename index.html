@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">ChatApp</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <main>
+            <section id="chat-section" class="chat-section">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User avatar">
+                                <span class="online-status"></span>
+                            </div>
+                            <div>
+                                <h3>Sarah Johnson</h3>
+                                <p class="status">Online</p>
+                            </div>
+                        </div>
+                        <div class="chat-actions">
+                            <button><i class="fas fa-phone"></i></button>
+                            <button><i class="fas fa-video"></i></button>
+                            <button><i class="fas fa-ellipsis-vertical"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="chat-messages">
+                        <div class="message-date">Today</div>
+                        
+                        <div class="message received">
+                            <div class="message-content">
+                                <p>Hey there! How's your day going?</p>
+                                <span class="message-time">10:30 AM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="message sent">
+                            <div class="message-content">
+                                <p>Pretty good! Just finished that project we were working on.</p>
+                                <span class="message-time">10:32 AM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="message received">
+                            <div class="message-content">
+                                <p>That's awesome! Can you send me the files when you get a chance?</p>
+                                <span class="message-time">10:33 AM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="typing-indicator">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <span>Sarah is typing...</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-input">
+                        <button class="attachment-btn"><i class="fas fa-paperclip"></i></button>
+                        <input type="text" placeholder="Type a message...">
+                        <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features-section">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-comment-dots"></i>
+                        <h3>Real-time Chat</h3>
+                        <p>Instant messaging with read receipts and typing indicators.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-moon"></i>
+                        <h3>Dark Mode</h3>
+                        <p>Eye-friendly dark theme for comfortable nighttime use.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Works seamlessly on all devices from desktop to mobile.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>End-to-End Encryption</h3>
+                        <p>Your conversations are secure and private.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <h2>About ChatApp</h2>
+                <p>ChatApp is a modern messaging platform designed with user experience in mind. Our intuitive interface and powerful features make communication simple and enjoyable.</p>
+                <p>With seamless synchronization across all your devices, you'll never miss an important message again.</p>
+                <div class="tech-stack">
+                    <h3>Built With:</h3>
+                    <div class="tech-icons">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-node-js" title="Node.js"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 ChatApp. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
