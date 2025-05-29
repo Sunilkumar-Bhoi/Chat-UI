@@ -101,14 +101,3 @@ Created with ❤️ by Sunilkumar Bhoi
 Fonts and icons provided by:
 - [Google Fonts](https://fonts.google.com)
 - [Font Awesome](https://fontawesome.com)
-
-## Screenshots
-
-**Light Theme**
-![Light Theme](https://i.imgur.com/JQZ1l4T.png)
-
-**Dark Theme**
-![Dark Theme](https://i.imgur.com/8X9QvZL.png)
-
-**Mobile View**
-![Mobile View](https://i.imgur.com/5nTk7YQ.png)
