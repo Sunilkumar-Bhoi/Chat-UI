@@ -1,6 +1,6 @@
-# Modern Chat UI - README
+# Chat UI - README
 
-![Project Preview](https://i.imgur.com/JQZ1l4T.png)
+![Project Preview](https://sunilkumar-bhoi.github.io/Chat-UI/)
 
 ## Overview
 
